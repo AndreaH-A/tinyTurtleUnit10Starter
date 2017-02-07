@@ -1,22 +1,25 @@
 TinyTurtle.apply(window);
 
-function square(){
-forward(50);
+function square(x){
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
 right(90);
-forward(50);
+forward(x);
 }
 
-function triangle(){
-right(45);
-forward(35);
+function triangle(x){
+forward(x);
+right(135);
+forward(x);
 right(90);
-forward(35);
+forward(x);
+right(135);
+forward(x);
 }
 
 function house(){
@@ -63,10 +66,86 @@ forward(50);
 right(60);
 }
 
+function shape(a,h){
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);
+forward(a);
+right(h);  
+forward(a);
+right(h);
+forward(a);
+right(h);  
+}
+
 // Type your function call below
-//square();
+//square(40);
 stamp();
-//triangle();
+//triangle(35);
 //house();
 //pentagon();
-hexagon();
+//hexagon();
+shape(5,10);
